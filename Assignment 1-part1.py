@@ -19,7 +19,7 @@ def test_list_divide():
     assert list_divide([2, 4, 6, 8, 10]) == 5
 
     #This is the third test case that should return 0
-    assert list_divide(30, 54, 63, 98, 100], divide=10) == 2
+    assert list_divide([30, 54, 63, 98, 100], divide=10) == 2
 
     #This is fourth case with an empty list
     assert list_divide([]) == 0
