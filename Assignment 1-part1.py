@@ -8,6 +8,9 @@ def list_divide(numbers, divide=2):
             count += 1
     return count
 
+class ListDivideException(Exception):
+    pass
+
 def test_list_divide():
     #This is the first test case
     assert list_divide([1, 2, 3, 4, 5]) == 2
